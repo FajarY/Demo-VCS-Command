@@ -2,7 +2,11 @@
 
 int main()
 {
-    std::cout << "Testing" << std::endl;
+    int a;
+
+    std::cin >> a;
+
+    std::cout << "Testing : " << a <<  std::endl;
 
     return 0;
 }
